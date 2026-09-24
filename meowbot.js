@@ -51,7 +51,7 @@ function addMessageToChat(sender, text) {
   msgDiv.className = `message ${sender}`;
   
   const label = sender === "user" ? "user:" : "meowbot:";
-  msgDiv.textContent = `${label} ${text}`;
+  msgDiv.textContent = `> ${label} ${text}`;
   
   chatBox.appendChild(msgDiv);
   chatBox.scrollTop = chatBox.scrollHeight;
