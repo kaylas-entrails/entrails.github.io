@@ -1,0 +1,157 @@
+
+pre {
+    line-height: 0.9;
+    width: 80%;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-align: center;
+    white-space: pre;
+}
+
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    word-wrap: break-word;
+  }
+  
+  .navbarButton {
+    display: flex;
+    border-top: solid;
+    border-left: solid;
+    border-color: white;
+    margin: 0.8vw;
+    padding: 1vw;
+    font-size: 20px
+  }
+  
+  .mainGrid {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    border-top: solid;
+    width: 100%;
+    min-height: 80vh;
+  }
+  
+  .mainContent {
+    padding: 1vw;
+    width: 80%;
+  }
+  
+  .sideBar{
+    flex-basis: auto;
+    min-width: 0px;
+    word-wrap: break-word;
+    font-size: 16px;
+    padding: 1vw;
+    height: auto;
+
+  }
+  
+  .footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    border-top: solid;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 20px;
+    text-decoration-line: underline;
+  }
+  
+  .blogImage{
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: 40px;
+  }
+  
+    .displayImage{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+  }
+  
+  .moonGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1vw;
+    width: 80%;
+    justify-items: start;
+  }
+  
+  .lunatic {
+    width: 150px;
+    height: auto;
+    margin: 0 0 0 0;
+    display:  inline-block;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 1500px;
+    }
+h1 {
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    text-align: center;
+}
+h2 {
+    text-align: left;
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: underline;
+}
+h5 {
+    text-align: left;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+}
+p {
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+button {
+  font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    background-color:black;
+    text-align: center;
+    cursor: pointer;
+}
+a {
+    color: White;
+    text-decoration: none;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+hr {
+  margin: 15px;
+}
